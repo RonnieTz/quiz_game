@@ -1,0 +1,30 @@
+.navbar {
+  height: 3rem;
+  width: 100%;
+  background-color: #3b2f2f;
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: antiquewhite;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  background-color: blueviolet;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  transition: 0.2s;
+}
+
+.link:hover {
+  background-color: rgb(153, 76, 226);
+  color: white;
+}
+
+.link:active {
+  background-color: rgb(130, 29, 225);
+  color: white;
+}
